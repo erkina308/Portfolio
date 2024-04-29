@@ -300,7 +300,12 @@ export default function MainPage() {
               className="icon contact-icon"
             />
             <p>
-              <a>Linkedin</a>
+              <a
+                style={{ textDecoration: "none", color: "black" }}
+                href="https://www.linkedin.com/in/erkin-ayna-113545271/"
+              >
+                Linkedin
+              </a>
             </p>
           </div>
         </div>
