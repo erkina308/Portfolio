@@ -31,9 +31,9 @@ export default function MainPage() {
       <NavBar />
       <MainContainer id="profile">
         {/* // profile */}
-        <PicContainer>
+        {/* <PicContainer>
           <img src="stock2.jpg" alt="Erkin Ayna profile picture" />
-        </PicContainer>
+        </PicContainer> */}
         <ProfileContainer>
           <p className="p1-of-profile">Hello, I'm</p>
           <h1>Erkin Ayna</h1>
@@ -179,13 +179,13 @@ export default function MainPage() {
                     <p>Intermediate</p>
                   </div>
                 </article>
-                <article>
+                {/* <article>
                   <img src={checkmark} alt="Experience icon" className="icon" />
                   <div>
                     <h3>MongoDB</h3>
                     <p>Beginner</p>
                   </div>
-                </article>
+                </article> */}
               </div>
             </div>
           </div>
